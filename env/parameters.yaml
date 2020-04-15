@@ -1,12 +1,7 @@
 adminUser:
   password: vault:goatautumn/adminUser:password
-  username: jadmin
-docker:
-  email: support@anonshells.com
-  password: vault:goatautumn/docker:password
-  url: https://index.docker.io/v1/
-  username: anonshells
-enableDocker: true
+  username: admin
+enableDocker: false
 pipelineUser:
   email: jennifer@anonshells.com
   token: vault:goatautumn/pipelineUser:token
